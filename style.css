@@ -153,7 +153,7 @@ header {
     text-transform: uppercase;
     margin-bottom: 50px;
     letter-spacing: 2px;
-    
+
 }
 
 #aboutme p {
@@ -161,6 +161,7 @@ header {
     line-height: 1.8;
     color: #666;
     margin-bottom: 20px;
+
 }
 
 #aboutme .row {
@@ -280,7 +281,7 @@ header {
 }
 
 .card-img-top {
-    height: 400px;
+    height: 200px;
     object-fit: cover;
 }
 

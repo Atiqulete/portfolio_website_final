@@ -139,17 +139,21 @@ header {
     padding: 60px 0;
 }
 
+
 #aboutme .profile-img img {
     border: 8px solid #fff;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-#aboutme .display-3 {
+#aboutme .display-2 {
+    color: #007bff;
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 20px;
-    color: #333;
+    text-align: center;
     text-transform: uppercase;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    
 }
 
 #aboutme p {
@@ -191,7 +195,7 @@ header {
 }
 
 #skills h2 {
-    color: #333;
+    color: #007bff;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
@@ -252,9 +256,15 @@ header {
 }
 
 #portfolio h2 {
-    color: #333;
+    color: #007bff;
     font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
 }
+
 
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -270,7 +280,7 @@ header {
 }
 
 .card-img-top {
-    height: 200px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -298,14 +308,16 @@ header {
 }
 
 #contact h2 {
-    color: #333;
+    color: #007bff;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
+
+
 
 #contact .row {
     display: flex;
